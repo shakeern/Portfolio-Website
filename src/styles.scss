@@ -16,3 +16,23 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+.image-container img {
+    width: 150px; /* Adjust this value to your preferred image width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Display images in a row with some spacing */
+  .image-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px; /* Adjust this value for spacing between rows */
+  }
+
+.projimg{
+    padding-left: 100px;
+}
+.projimg2{
+    padding-left: 200px;
+}
+  
